@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #8ceeee;
+  padding: 20px 0;
+}
+.menu li{
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+  color: black;
+}
+
+.menu ul {
+  display : flex;
+}
+
+.menu li a:hover {
+  font-weight: 600px;
+  background-color: white;
+  padding: 5px 11px;
+  border-radius: 13px;
+}
